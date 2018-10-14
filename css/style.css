@@ -34,3 +34,43 @@ header nav a, header nav a:hover{
   color: white;
   font-size: 30px;
 }
+.section{
+  padding: 50px 0;
+}
+.img-heading{
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  position: relative;
+}
+.img-heading h2{
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+}
+.txt-articulo{
+  padding: 20px 0;
+  position: relative;
+  margin-bottom: 30px;
+}
+.mas-articulo{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+#sidebar{
+  box-shadow: 2px 4px 14px 0px grey;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.opt-sidebar{
+  width: calc(100% - 100px);
+  border-bottom: 1px solid red;
+  padding: 50px 50px 30px;
+  margin: auto;
+}
+.opt-sidebar a{
+  width: 100%;
+  display: block;
+}
