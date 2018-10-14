@@ -16,3 +16,21 @@ header nav a, header nav a:hover{
   font-size: 30px;
   color: orange;
 }
+#banner{
+  background-image: url(../img/banner.png);
+  height: calc(100vh - 95px);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.frase{
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
