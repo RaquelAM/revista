@@ -5,3 +5,9 @@ $(".scroll").on("click",function(event){
       scrollTop: target.offset().top - 95
   }, 500);
 })
+
+
+$(".ham").on("click", function(){
+  console.log("lala")
+  $("#nav").toggleClass("open")
+})

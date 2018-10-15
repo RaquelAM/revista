@@ -17,6 +17,7 @@ header nav a, header nav a:hover{
   line-height: 2.5;
 }
 a:hover{color: red !important;}
+.ham{display: none;}
 #magazine{
   font-family: 'Lobster', cursive;
   font-size: 30px;

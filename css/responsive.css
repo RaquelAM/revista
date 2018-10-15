@@ -1,0 +1,44 @@
+@media (max-width: 800px){
+  .ham{
+    display: block;
+    position: absolute;
+    right: 40px;
+    top: 40px;
+  }
+  .ham i{
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  header{border-bottom: 1px solid white;}
+  header nav{
+    height: 0;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 95px;
+    background: blue;
+    text-align: left;
+    padding: 0;
+    overflow: hidden;
+    transition-duration: 1s;
+    -ms-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    -o-transition-duration: 1s;
+  }
+  header nav.open{
+    height: 300px;
+  }
+  #magazine{text-align: center;}
+  .scroll{
+    display: -webkit-box;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e4e0e063;
+    margin-bottom: 20px;
+  }
+  header nav a, header nav a:hover{padding-bottom: 10px;}
+  .section {
+    padding: 50px 20px;
+  }
+}
