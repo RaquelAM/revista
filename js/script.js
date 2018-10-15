@@ -4,6 +4,7 @@ $(".scroll").on("click",function(event){
   $('html, body').animate({
       scrollTop: target.offset().top - 95
   }, 500);
+  $("#nav").toggleClass("open")
 })
 
 
