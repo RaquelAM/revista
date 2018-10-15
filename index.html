@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lobster|Titillium+Web:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -83,10 +84,81 @@
         </div>
       </div>
     </section>
-
+    <section class="container section">
+      <div class="col-xs-12 title-section">
+        <hr>
+        <span>EVENTOS</span>
+        <hr>
+      </div>
+      <div class="row" id="slider-eventos">
+        <div class="col-md-4">
+          <div class="img-heading" style="background-image: url(img/evento1.jpg);">
+            <h2>Heading</h2>
+          </div>
+          <div class="txt-articulo">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut scelerisque magna nec metus fermentum, eu malesuada turpis congue. Etiam non imperdiet metus. Pellentesque quis tortor vitae ex scelerisque interdum.
+            <a href="#" class="mas-articulo">Ver más...</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="img-heading" style="background-image: url(img/evento2.jpg);">
+            <h2>Heading</h2>
+          </div>
+          <div class="txt-articulo">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut scelerisque magna nec metus fermentum, eu malesuada turpis congue. Etiam non imperdiet metus. Pellentesque quis tortor vitae ex scelerisque interdum.
+            <a href="#" class="mas-articulo">Ver más...</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="img-heading" style="background-image: url(img/evento3.jpg);">
+            <h2>Heading</h2>
+          </div>
+          <div class="txt-articulo">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut scelerisque magna nec metus fermentum, eu malesuada turpis congue. Etiam non imperdiet metus. Pellentesque quis tortor vitae ex scelerisque interdum.
+            <a href="#" class="mas-articulo">Ver más...</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="img-heading" style="background-image: url(img/evento4.jpg);">
+            <h2>Heading</h2>
+          </div>
+          <div class="txt-articulo">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut scelerisque magna nec metus fermentum, eu malesuada turpis congue. Etiam non imperdiet metus. Pellentesque quis tortor vitae ex scelerisque interdum.
+            <a href="#" class="mas-articulo">Ver más...</a>
+          </div>
+        </div>
+      </div>
+    </section>
     <script src="https://use.fontawesome.com/6fccf31628.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript">
+    $('#slider-eventos').slick({
+        dots: false,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        arrows: false,
+        responsive: [
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+        });
+    </script>
   </body>
 </html>
