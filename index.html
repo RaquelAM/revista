@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.11/src/css/lightgallery.css" integrity="sha256-+jjVR4QLMWQvmGM1CGnOxg1JbW82+Z4ioXFVsFRRInM=" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -129,11 +130,46 @@
         </div>
       </div>
     </section>
+    <section class="container section">
+      <div class="col-xs-12 title-section">
+        <hr>
+        <span>GALERÍA</span>
+        <hr>
+      </div>
+      <div class="row" id="galeria">
+
+          <a href="img/galeria1.jpeg" class="col-md-3 container-img-galeria">
+            <img src="img/galeria1.jpeg" class="img-galeria"/>
+          </a>
+          <a href="img/galeria2.jpg" class="col-md-3 container-img-galeria">
+            <img src="img/galeria2.jpg" class="img-galeria"/>
+          </a>
+          <a href="img/galeria3.jpg" class="col-md-3 container-img-galeria">
+            <img src="img/galeria3.jpg" class="img-galeria"/>
+          </a>
+          <a href="img/galeria4.jpg" class="col-md-3 container-img-galeria">
+            <img src="img/galeria4.jpg" class="img-galeria"/>
+          </a>
+          <a href="img/galeria5.jpg" class="col-md-3 container-img-galeria">
+            <img src="img/galeria5.jpg" class="img-galeria"/>
+          </a>
+          <a href="img/galeria6.jpeg" class="col-md-3 container-img-galeria">
+            <img src="img/galeria6.jpeg" class="img-galeria"/>
+          </a>
+          <a href="img/galeria7.jpg" class="col-md-3 container-img-galeria">
+            <img src="img/galeria7.jpg" class="img-galeria"/>
+          </a>
+          <a href="img/galeria8.jpg" class="col-md-3 container-img-galeria">
+            <img src="img/galeria8.jpg" class="img-galeria"/>
+          </a>
+      </div>
+    </section>
     <script src="https://use.fontawesome.com/6fccf31628.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@1.6.11/dist/js/lightgallery.min.js" integrity="sha256-fVI9G3UpdqpL0kYpTF2GCtJkK36SLoHA5qswX9f4Yc8=" crossorigin="anonymous"></script>
     <script type="text/javascript">
     $('#slider-eventos').slick({
         dots: false,
@@ -158,6 +194,9 @@
             }
           }
         ]
+        });
+        $('#galeria').lightGallery({
+            thumbnail:true
         });
     </script>
   </body>
