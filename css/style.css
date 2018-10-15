@@ -106,3 +106,15 @@ header nav a, header nav a:hover{
 .container-img-galeria:focus .img-galeria {
   transform: scale(1.2);
 }
+footer{
+  background: blue;
+  padding: 25px 0;
+  color: white;
+}
+footer a{
+  padding: 0 10px;
+  color: white;
+}
+footer a:hover{
+  color: white;
+}
