@@ -16,6 +16,7 @@ header nav a, header nav a:hover{
   text-decoration: none;
   line-height: 2.5;
 }
+a:hover{color: red !important;}
 #magazine{
   font-family: 'Lobster', cursive;
   font-size: 30px;
@@ -88,7 +89,7 @@ header nav a, header nav a:hover{
 .title-section hr{
   width: calc(100% - 120px);
   margin: 20px 0;
-  border: 1px solid blue;
+  border: 1px solid red;
 }
 .title-section span{
   width: 120px;
